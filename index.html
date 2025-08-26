@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Hotline</title>
+         <!--Tailwind CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+       <!--Font Awesome CDN-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-100 min-h-screen text-sans">
+
+         <!-- NAVBAR -->
+  <header class="bg-white shadow-sm">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <!-- Logo Section -->
+      <div class="flex items-center gap-3 w-[397px] h-[52px] m-r-60px">
+        <img src="./assets/logo.png" alt="logo" class="w-10 h-10">
+        <div>
+          <div class="text-lg font-bold">Emergency <br> Service</div>
+          
+        </div>
+      </div>
+
+      <!-- Right- heartCount, coinCount, copyCount Copy) -->
+      <div class="flex items-center gap-6 text-sm">
+        <div id="navHeart" class="flex items-center gap-2 select-none">
+          <span class="text-red-500 text-lg"><i class="fa-solid fa-heart"></i></span>
+          <span id="heartCountDisplay" class="font-medium">0</span>
+        </div>
+
+        <div class="flex items-center gap-2 select-none">
+          <img src="./assets/coin.png" alt="coin" class="w-6 h-6">
+          <span id="coinCountDisplay" class="font-medium">100</span>
+        </div>
+
+        <div class="flex items-center gap-2 select-none">
+          <span id="copyCountDisplay" class="font-medium">0</span>
+          <span class="text-gray-600 bg-green-800 text-white w-[55px] h-[26px] [25px] rounded-full text-sm text-center ">Copy</span>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
