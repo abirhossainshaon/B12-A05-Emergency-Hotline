@@ -111,10 +111,23 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 ### 6. Answer the following questions clearly:
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
+Ans: querySelector() returns the first matching element, whereas document. getElementById() returns the element with the specified ID
+
 2. How do you **create and insert a new element into the DOM**?
+Ans: DOM: Creating Elements
+1.createElement() — create a new element.
+2.setAttribute() — set any needed attributes, such as ID's or classes.
+3.createTextNode() — create any needed content.
+4.appendChild() — attach the new text node to the element.
+
 3. What is **Event Bubbling** and how does it work?
+Ans: Event Bubbling is a phase of event propagation in the DOM where an event starts from the target element and then moves upward step by step to its parent, grandparent, and finally the root.
+
 4. What is **Event Delegation** in JavaScript? Why is it useful?
+Ans: Event delegation is a powerful pattern in JavaScript that improves both the performance and maintainability of your code, especially when dealing with dynamic content or a large number of elements. By leveraging event bubbling, you can reduce the number of event listeners and streamline your code.
+
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
+Ans: preventDefault() is used to prevent the default action that belongs to the event, such as preventing a form from submitting. event. stopPropagation() is used to stop the event from bubbling up to parent elements, preventing any parent event handlers from being executed.
 
 ---
 
