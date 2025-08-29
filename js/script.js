@@ -36,11 +36,12 @@ function renderCards() {
       <p class="font-mono text-blue-600">${service.number}</p>
       <span class="text-xs bg-white-200 text-green-800 px-2 py-1 rounded">${service.category}</span>
       
-      <button class="heartBtn text-red-500 mt-2"></button>
+      <button class="heartBtn text-red-500 mt-2">❤️
+</button>
       
       <div class="flex justify-between mt-2">
         <button class="copyBtn bg-gray-200 px-3 py-1 rounded w-[10] h-10 items-center "><i class="fa-regular fa-"></i>Copy</button>
-        <button class="callBtn bg-blue-500 text-white px-3 py-1 rounded bg-green-700">📞 Call</button>
+        <button class="callBtn bg-blue-500 text-white px-3 py-1 rounded bg-green-700 w-25 " >📞 Call</button>
       </div>
     `;
 
